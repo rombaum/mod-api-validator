@@ -32,8 +32,7 @@ export const AppConfig: Configuration = {
         {
             id: 'ts4nfdi',
             name: 'TS-NFDI API Gateway',
-            // baseURL:'http://localhost:8080/api-gateway',
-            baseURL: 'https://ts4nfdi-api-gateway.prod.km.k8s.zbmed.de/api-gateway',
+            baseURL: 'https://terminology.services.base4nfdi.de/api-gateway',
             params: "format=jsonld&targetDbSchema=mod&showResponseConfiguration=false&database=ontoportal"
         }],
     openapiUrl: 'https://raw.githubusercontent.com/syphax-bouazzouni/MOD-API/main/mod_api/static/mod_api/openapi.yaml',
